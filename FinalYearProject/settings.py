@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'foodorder',
         'USER': 'root',
-        'PASSWORD': 'sandip',
+        'PASSWORD': 'Mozi@2020',
         'HOST': 'localhost',
         'PORT': '3306',
     }
@@ -128,6 +128,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS  = [
     os.path.join(BASE_DIR, 'static')
 ]
+STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
